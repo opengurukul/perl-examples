@@ -1,0 +1,10 @@
+$\="\n";
+$,=" ";
+sub area($$)
+{
+ $len=$_[0];
+ $brd=$_[1];
+ $area=$len*$brd;
+
+}
+print "area is: ",area; 
