@@ -4,15 +4,15 @@ $\="\n";
 
 
 sub add($$) {
-my $sum;
-my $a;
-my $b;
+	my $sum;
+	my $a;
+	my $b;
 
-$a = shift ;
-$b = shift ;
-$sum = $a + $b;
+	$a = shift ;
+	$b = shift ;
+	$sum = $a + $b;
 
-return $sum;
+	return $sum;
 }
 
 $sum = add(1, 2);
